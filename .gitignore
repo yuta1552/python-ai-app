@@ -1,0 +1,20 @@
+# APIキー・環境変数（絶対にアップロードしない）
+.env
+
+# Pythonが自動生成するキャッシュファイル（不要）
+__pycache__/
+*.py[cod]
+
+# 仮想環境フォルダ（容量が大きく他の人には不要）
+.venv/
+venv/
+env/
+
+# IDEの設定ファイル（個人の設定なので不要）
+.vscode/
+.idea/
+
+# Claude Code設定ファイル
+.claude/
+.agents/
+skills-lock.json
